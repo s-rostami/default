@@ -1,0 +1,8 @@
+server {
+   listen 80 default_server;
+   root /home/ubuntu/frontend/build;
+   server_name "";
+   index index.html index.htm;
+   location / {
+   }
+}
